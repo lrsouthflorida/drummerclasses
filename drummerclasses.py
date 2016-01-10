@@ -40,7 +40,20 @@ class Drummer(Musician):
 class Band(Musician):    
     def __init__(self):
         # Call the __init__ method of the parent class
-        super().__init__([         ])
+        super().__init__("playing","hiring","firing")
+        
+    def hiring(self):
+        print("Talented, creative, hardworking")
+        print("Your hired")
+        
+    def firing(self):
+        print("Lazy, unproductive, disinterested")
+        print("Your fired")
+        
+        
+        
+        
+        
         
         
         
