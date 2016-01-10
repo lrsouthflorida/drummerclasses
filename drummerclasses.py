@@ -4,8 +4,8 @@ class Musician(object):
 
     def solo(self, length):
         for i in range(length):
-            print(self.sounds[i % len(self.sounds)], end=" ")
-        print()
+        print(self.sounds[i % len(self.sounds)],end=" ")
+            print()
 
 class Bassist(Musician): # The Musician class is the parent of the Bassist class
     def __init__(self):
@@ -22,6 +22,23 @@ class Guitarist(Musician):
         print("Twoning, sproing, splang")
         
 class Drummer(Musician):
+    def __init__(self):
+        # Call the __init__ method of the parent class
+        super().__init__([          ])
+    
+    def count(self):
+        counter = 
+        while (counter <= 4):
+            if n =< 4
+            print(count)
+            count = count + 1
     
     
 class Band(Musician):    
+    def __init__(self):
+        # Call the __init__ method of the parent class
+        super().__init__([         ])
+        
+        
+        
+        
