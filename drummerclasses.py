@@ -33,6 +33,9 @@ class Drummer(Musician):
             print(count)
             count = count + 1
     
+    def loud(self):
+        print(spontaneously combust)
+    
     
 class Band(Musician):    
     def __init__(self):
