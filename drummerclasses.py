@@ -24,7 +24,7 @@ class Guitarist(Musician):
 class Drummer(Musician):
     def __init__(self):
         # Call the __init__ method of the parent class
-        super().__init__([          ])
+        super().__init__(["Bang", "Bong", "Splash"])
     
     def count(self):
         counter = 
