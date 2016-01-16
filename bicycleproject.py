@@ -7,9 +7,9 @@ class Bicycle(object):
     
 
 class Bike_Shop(object):
-    def __init__(self, turbo_bikes):
+    def __init__(self, turbo_bikes, inventory = []):
         self.turbo_bikes = turbo_bikes
-    
+        self.inventory = inventory
     
 
     
