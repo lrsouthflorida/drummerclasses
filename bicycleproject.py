@@ -1,5 +1,8 @@
 class Bicycle(object):
-    def __init__(self,roadster):
+    def __init__(self,roadster, pounds):
+        self.roadster = roadster
+        self.pounds = 20
+        
     
     
     
