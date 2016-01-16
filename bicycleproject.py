@@ -14,4 +14,13 @@ class Bike_Shop(object):
         self.profit = profit
 
     
-class Customers(object):    
+class Customers(object):
+    def __init__(self, customer_name = [], customer_funds, ):
+        self.customer_name = customer_name
+        self.customer_funds = customer_funds
+        
+        
+        
+        
+        
+        
