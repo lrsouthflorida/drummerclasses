@@ -1,14 +1,16 @@
 class Bicycle(object):
+    def __init__(self,roadster):
+    
+    
+    
+    
+
+class Bike Shops(object):
     
     
     
     
     
-class Bike_Shops(object):
-    
-    
-    
-    
-    
+
     
 class Customers(object):    
