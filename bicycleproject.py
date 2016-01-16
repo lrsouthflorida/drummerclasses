@@ -7,10 +7,11 @@ class Bicycle(object):
     
 
 class Bike_Shop(object):
-    def __init__(self, turbo_bikes, inventory = [], cost_margin):
+    def __init__(self, turbo_bikes, inventory = [], cost_margin, profit):
         self.turbo_bikes = turbo_bikes
         self.inventory = inventory
-        self.cost_margin = 10     
+        self.cost_margin = 10   
+        self.profit = profit
 
     
 class Customers(object):    
