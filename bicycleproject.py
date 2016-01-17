@@ -1,4 +1,4 @@
-bike_cost= 400
+bike_cost = 400
 cost_margin = 20/100
 
 class Bicycle(object):
@@ -15,8 +15,9 @@ class Bike_Shop(object):
         self.cost_margin = 10
         self.profit = profit
         self.inventory = inventory
-        
-    def profit_calculator(self,bike_cost,cost_margin): #Writing a method that can compute profit. 
+
+
+def profit_calculator(bike_cost,cost_margin):#Writing a method that can compute profit. 
         answer = bike_cost * cost_margin
         print(answer)
         profit_calculator(bike_cost,cost_margin)
@@ -31,9 +32,8 @@ class Customers(object):
         
         
         
-if __name__ == '__main__':
+
     
-    inventory
     
     
     
