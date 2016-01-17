@@ -13,6 +13,8 @@ class Bike_Shop(object):
         self.profit = profit
         self.inventory = inventory
         
+    def profit_calculator(): #Writing a method that can compute profit. 
+        
 
     
 class Customers(object):
@@ -23,6 +25,17 @@ class Customers(object):
         
         
         
+        
+if __name__ == '__main__':
+    
+    inventory
+    
+    
+    
+    
+    
+    
+    
         
         
         
