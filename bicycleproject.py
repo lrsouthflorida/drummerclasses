@@ -30,12 +30,12 @@ class Customers(object):
         self.customer_name = customer_name
         
 Customers_budgets = {
-    "Customer_one": "200",
-    "Customer_two": "500",
-    "Customer_three": "1000",
+    "Evan": "200",
+    "Linda": "500",
+    "Elon": "1000",
 }
 
-
+print(Customers_budgets)
         
         
 
