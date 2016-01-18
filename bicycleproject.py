@@ -29,7 +29,13 @@ class Customers(object):
         self.bicycle_buyers = bicycle_buyers
         self.customer_name = customer_name
         
-        
+Customers_budgets = {
+    "Customer_one": "200",
+    "Customer_two": "500",
+    "Customer_three": "1000",
+}
+
+
         
         
 
