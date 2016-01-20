@@ -1,5 +1,13 @@
 
 
+customerone = Customers("Customerone",200)
+customertwo = Customers("Customertwo",500)
+customerthree = Customers("Customerthree",1000)
+
+
+
+
+
 
 class Bicycle(object):
     def __init__(self, name, weight, cost):
@@ -10,12 +18,14 @@ class Bicycle(object):
     
 
 class Bike_Shop(object):
-    def __init__(self, name, cost_margin, inventory = [gold_bike, silver_bike, black_bike, blue_bike, green_bike, yellow_bike] 
+    def __init__(self, name, bikes, cost_margin) 
         self.name = name
         self.cost_margin = cost_margin
-        self.inventory = inventory
+        self.inventory = {}inventory
         self.profit = 0
         
+        for bike in bikes:
+            price = self.inventory[bike]*self.cost_margin
         
         
    
