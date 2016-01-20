@@ -62,7 +62,13 @@ def print_inventory():
 print_inventory()    
 
     
+def inventory_profit():
+    inventory_clean = {}
+    for key in bikeshop.inventory:
+            inventory_clean[key.name]=bikeshop.inventory[key]
+    print inventory_clean
     
+inventory_profit()    
     
     
     
