@@ -46,9 +46,21 @@ def find_customers_bikes():
         if isinstance(obj, Customers):
                 allcustomers.append(obj)
 
+    for customer in allcustomers:
+        afforablebikes[customer.name] = []
+        for bike in bikeshop.inventory:
+            if customer.fund >= bikeshop.inventory[bike]["price"]
+                    afforablebikes[customer.name].append(bike)
+    
+    print "The afforable bikes are %s" % afforablebikes
+    
+find_customers_bikes()    
+    
+def print_inventory():
+    print bike.shop.inventory
+    
+print_inventory()    
 
-    
-    
     
     
     
