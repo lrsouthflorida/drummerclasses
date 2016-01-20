@@ -1,13 +1,10 @@
 
 bikes = {black_bike:4, gold_bike:3, red_bike:2, silver_bike:5, purple_bike:1}
-
-
+bikeshop = Bikeshops("Bikeshop",bikes,1.20)
 
 customerone = Customers("Customerone",200)
 customertwo = Customers("Customertwo",500)
 customerthree = Customers("Customerthree",1000)
-
-
 
 
 
@@ -21,7 +18,7 @@ class Bicycle(object):
     
 
 class Bike_Shop(object):
-    def __init__(self, name, bikes, cost_margin) 
+    def __init__(self, name, bikes, cost_margin): 
         self.name = name
         self.cost_margin = cost_margin
         self.inventory = {}inventory
@@ -33,10 +30,11 @@ class Bike_Shop(object):
         
    
 class Customers(object):
-    def __init__(self, customer_funds, bicycle_buyers, customer_name = []):
+    bikesowned = []
+    def __init__(self, name, customer_funds):
+        self.name = name
         self.customer_funds = customer_funds
-        self.bicycle_buyers = bicycle_buyers
-        self.customer_name = customer_name
+        
         
 
 
