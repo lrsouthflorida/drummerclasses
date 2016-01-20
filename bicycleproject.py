@@ -1,4 +1,7 @@
 
+bikes = {black_bike:4, gold_bike:3, red_bike:2, silver_bike:5, purple_bike:1}
+
+
 
 customerone = Customers("Customerone",200)
 customertwo = Customers("Customertwo",500)
