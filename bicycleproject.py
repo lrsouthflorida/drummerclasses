@@ -27,6 +27,11 @@ class Bike_Shop(object):
         for bike in bikes:
             price = self.inventory[bike]*self.cost_margin
         
+    def sell(self, bike, customer):
+            self.profit += int(self.inventory[bike]["price"]-(self.inventory[bike]["price"]/self.margin))
+            customer.bikesowned.append(bike)
+            customer.fund -= self.inventory[bike]["price"]
+            self.inventory[bike]["amount"] -=1
         
    
 class Customers(object):
