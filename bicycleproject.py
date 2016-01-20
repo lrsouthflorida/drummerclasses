@@ -6,7 +6,8 @@ customerone = Customers("Customerone",200)
 customertwo = Customers("Customertwo",500)
 customerthree = Customers("Customerthree",1000)
 
-
+allcustomers = []
+afforable bikes = {}
 
 
 class Bicycle(object):
@@ -40,7 +41,10 @@ class Customers(object):
         self.name = name
         self.customer_funds = customer_funds
         
-        
+def find_customers_bikes():
+    for obj in gc.get_objects():
+        if isinstance(obj, Customers):
+                allcustomers.append(obj)
 
 
     
