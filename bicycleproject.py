@@ -1,6 +1,6 @@
 
 bikes = {black_bike:4, gold_bike:3, red_bike:2, silver_bike:5, purple_bike:1}
-bikeshop = Bikeshops("Bikeshop",bikes,1.20)
+bikeshop = Bikeshops("Bikeshop",bikes,20/100)
 
 customerone = Customers("Customerone",200)
 customertwo = Customers("Customertwo",500)
