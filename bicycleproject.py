@@ -28,7 +28,7 @@ class Bike_Shop(object):
         for bike in bikes:
             price = self.inventory[bike]*self.cost_margin
         
-    def sell(self, bike, customer):
+    def sell(self, bike, customer): #Formula for proift that 
             self.profit += int(self.inventory[bike]["price"]-(self.inventory[bike]["price"]/self.margin))
             customer.bikesowned.append(bike)
             customer.fund -= self.inventory[bike]["price"]
@@ -46,7 +46,7 @@ def find_customers_bikes():
         if isinstance(obj, Customers):
                 allcustomers.append(obj)
 
-    for customer in allcustomers:
+    for customer in allcustomers #helps find the customer afforable bikes
         afforablebikes[customer.name] = []
         for bike in bikeshop.inventory:
                 if customer.customer_funds >= bikeshop.inventory[bike]["price"]:
@@ -56,13 +56,13 @@ def find_customers_bikes():
     
 find_customers_bikes()    
     
-def print_inventory():
+def print_inventory(): #prints out the inventory 
     print bike.shop.inventory
     
 print_inventory()    
 
     
-def inventory_profit():
+def inventory_profit(): # function for inventory profit
     inventory_clean = {}
     for key in bikeshop.inventory:
             inventory_clean[key.name]=bikeshop.inventory[key]
