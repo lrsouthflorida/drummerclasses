@@ -1,13 +1,13 @@
 
-bikes = {black_bike:4, gold_bike:3, red_bike:2, silver_bike:5, purple_bike:1}
-bikeshop = Bikeshops("Bikeshop",bikes,20/100)
+bikes = {"black_bike:4", "gold_bike:3", "red_bike:2", "silver_bike:5", "purple_bike:1"}
+bikeshop = Bike_Shop("Bikeshop",bikes,20/100)
 
 customerone = Customers("Customerone",200)
 customertwo = Customers("Customertwo",500)
 customerthree = Customers("Customerthree",1000)
 
 allcustomers = []
-afforable bikes = {}
+afforablebikes = {}
 
 
 class Bicycle(object):
@@ -22,7 +22,7 @@ class Bike_Shop(object):
     def __init__(self, name, bikes, cost_margin): 
         self.name = name
         self.cost_margin = cost_margin
-        self.inventory = {}inventory
+        self.inventory = {}
         self.profit = 0
         
         for bike in bikes:
@@ -49,10 +49,10 @@ def find_customers_bikes():
     for customer in allcustomers:
         afforablebikes[customer.name] = []
         for bike in bikeshop.inventory:
-            if customer.fund >= bikeshop.inventory[bike]["price"]
+                if customer.customer_funds >= bikeshop.inventory[bike]["price"]:
                     afforablebikes[customer.name].append(bike)
     
-    print "The afforable bikes are %s" % afforablebikes
+    print ("The afforable bikes are %s") % afforablebikes
     
 find_customers_bikes()    
     
