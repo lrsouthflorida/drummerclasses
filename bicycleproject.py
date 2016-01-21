@@ -40,8 +40,8 @@ class Customers(object):
     def __init__(self, name, customer_funds):
         self.name = name
         self.customer_funds = customer_funds
-        
-def find_customers_bikes():
+       
+def find_customers_bikes(): # get customers and bikes they can afford.
     for obj in gc.get_objects():
         if isinstance(obj, Customers):
                 allcustomers.append(obj)
