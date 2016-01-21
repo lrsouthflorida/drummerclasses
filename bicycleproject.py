@@ -2,7 +2,7 @@
 bikes = {"black_bike:4", "gold_bike:3", "red_bike:2", "silver_bike:5", "purple_bike:1"}
 bikeshop = Bike_Shop("Bikeshop",bikes,20/100)
 
-customerone = Customers("Customerone",200)
+customerone = Customers("Customerone",200) # added info to included customers budgets.py
 customertwo = Customers("Customertwo",500)
 customerthree = Customers("Customerthree",1000)
 
