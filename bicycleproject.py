@@ -27,7 +27,7 @@ class BikeShop(object):
         
             
         
-    def sell(self, bicycle, customer):#Formula for profit that 
+    def sell(self, bicycle, customer):
             selling_price = (self.cost_margin * bicycle.cost_of_produce/100) + bicycle.cost_of_produce
             self.profit = selling_price - bicycle.cost_of_produce 
             customer.bikesowned.append(bicycle)
@@ -51,8 +51,8 @@ class Customer(object):
             print("Sorry that you cannot afford the bikes.")
             
 if __name__ == '__main__':       
-        
-        
+   bikes = {"black_bike":"4", "gold_bike":"3", "red_bike":"2", "silver_bike":"5", "purple_bike":"1"}     
+   print(bikes)            
         
         
     
