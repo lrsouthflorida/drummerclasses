@@ -51,10 +51,24 @@ class Customer(object):
             print("Sorry that you cannot afford the bikes.")
             
 if __name__ == '__main__':       
-   bikes = {"black_bike":"4", "gold_bike":"3", "red_bike":"2", "silver_bike":"5", "purple_bike":"1"}     
-   print(bikes)            
-        
-        
+   Cyclone = Bicycle(15,80,100,'Cyclone')   
+
+   Warhawk = Bicycle(25,120,140,'Warhawk')
+
+   Flash = Bicycle(12,100,130,'Flash')
+
+   Starfire = Bicycle(22,110,135,'Starfire')
+
+   Bulleteer = Bicycle(14,90,110,'Bulleteer')
+   
+   Supernova = Supernova(20,130,150,'Supernova')
+   
+   
+   
+
+    
+   
+  
     
     
 
