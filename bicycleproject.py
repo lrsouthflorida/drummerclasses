@@ -63,8 +63,11 @@ if __name__ == '__main__':
    
    Supernova = Supernova(20,130,150,'Supernova')
    
-   Donald  = Customer(1000,'Bulleteer','Donald')
+   Donald  = Customer(1000,'Warhawk','Donald')
    
+   Hilliary = Customer(500, 'Supernova', 'Hilliary')
+   
+   Bernie = Customer(200, 'Cyclone', 'Bernie')
    
    
 
