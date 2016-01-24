@@ -63,6 +63,8 @@ if __name__ == '__main__':
    
    Supernova = Supernova(20,130,150,'Supernova')
    
+   Donald  = Customer(1000,'Bulleteer','Donald')
+   
    
    
 
