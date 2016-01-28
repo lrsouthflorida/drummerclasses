@@ -61,13 +61,31 @@ if __name__ == '__main__':
 
    Bulleteer = Bicycle(14,90,110,'Bulleteer')
    
-   Supernova = Supernova(20,130,150,'Supernova')
+   Supernova = Bicycle(20,130,150,'Supernova')
+       
+   shop = Shop('Shopname', [Cyclone, Warhawk, Flash, Starfire, Bulleteer, Supernova])
    
-   Donald  = Customer(1000,'Warhawk','Donald')
    
-   Hilliary = Customer(500, 'Supernova', 'Hilliary')
    
-   Bernie = Customer(200, 'Cyclone', 'Bernie')
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
    
    
 
