@@ -63,8 +63,9 @@ if __name__ == '__main__':
    
    Supernova = Bicycle(20,130,150,'Supernova')
        
-   shop = Shop('Shopname', [Cyclone, Warhawk, Flash, Starfire, Bulleteer, Supernova])
+   Shopname = BikeShop('Shopname', [Cyclone, Warhawk, Flash, Starfire, Bulleteer, Supernova])
    
+   Shopname.sell()
    
    
    
