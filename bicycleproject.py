@@ -65,7 +65,11 @@ if __name__ == '__main__':
        
    Shopname = BikeShop('Shopname', [Cyclone, Warhawk, Flash, Starfire, Bulleteer, Supernova])
    
-   Shopname.sell()
+   b = BikeShop(name,cost_margin)
+   b.name()
+   b.cost_margin()
+   b.sell()
+   
    
    
    
